@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zap Vendas Imperium</title>
+    <link rel="stylesheet" href="./css/style-global.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="./assets/logo.png" alt="Zap Vendas">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section>
+            <h1>Bem-vindo ao Zap Vendas</h1>
+            <p>A melhor automação de WhatsApp para o seu negócio!</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Zap Vendas Imperium. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./js/script-global.js"></script>
+</body>
+</html>
