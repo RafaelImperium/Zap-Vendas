@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #0e0e0e;
+  color: #fff;
+}
+
+header {
+  background: #1b1b1b;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 2px solid #00ffc3;
+}
+
+.slogan {
+  color: #ccc;
+  font-style: italic;
+}
+
+.planos {
+  padding: 2rem;
+}
+
+.plano {
+  background: #1a1a1a;
+  border-left: 5px solid #00ffc3;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.destaque {
+  border-left-color: #ff9f00;
+}
+
+.premium {
+  border-left-color: #e91e63;
+}
