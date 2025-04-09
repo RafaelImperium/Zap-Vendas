@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperium - Planos</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Imperium</h1>
+  </header>
+  <main>
+    <section id="planos">
+      <h2>Escolha o Plano Ideal</h2>
+      <div id="planos-container">
+        
+        <!-- Plano Starter -->
+        <div class="plano">
+          <h3>Plano Starter</h3>
+          <p class="preco">R$ 49/mês</p>
+          <ul>
+            <li>✔ Integração básica com WhatsApp</li>
+            <li>✔ Respostas automáticas</li>
+            <li>✔ Relatórios simples</li>
+            <li>✔ Suporte padrão</li>
+            <li>✔ Personalização inicial</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Starter!" class="btn-plano">Contratar</a>
+        </div>
+        
+        <!-- Plano Profissional -->
+        <div class="plano">
+          <h3>Plano Profissional</h3>
+          <p class="preco">R$ 99/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Starter</li>
+            <li>✔ Agendamento de disparos</li>
+            <li>✔ Automação de vendas com IA</li>
+            <li>✔ Relatórios detalhados e organizados</li>
+            <li>✔ Suporte prioritário</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Profissional!" class="btn-plano">Contratar</a>
+        </div>
+
+        <!-- Plano Impérium -->
+        <div class="plano">
+          <h3>Plano Impéri8um</h3>
+          <p class="preco">R$ 299/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Profissional</li>
+            <li>✔ Catálogo inteligente para produtos</li>
+            <li>✔ Integração com redes sociais</li>
+            <li>✔ Relatórios avançados com gráficos automáticos</li>
+            <li>✔ Suporte VIP 24/7</li>
+            <li>✔ Consultoria personalizada em marketing</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Impérium!" class="btn-plano">Contratar</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Imperium. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e40, #4e4e80);
+  color: white;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Planos */
+#planos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.plano {
+  background: #26264d;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.plano h3 {
+  color: #56ccf2;
+  margin-bottom: 10px;
+}
+
+.plano .preco {
+  font-size: 1.5rem;
+  color: #25d366;
+  margin: 15px 0;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plano ul li {
+  margin: 5px 0;
+}
+
+.btn-plano {
+  text-decoration: none;
+  background: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-plano:hover {
+  background: #1da851;
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+  text-align: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperium - Planos</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Imperium</h1>
+  </header>
+  <main>
+    <section id="planos">
+      <h2>Escolha o Plano Ideal</h2>
+      <div id="planos-container">
+        
+        <!-- Plano Starter -->
+        <div class="plano">
+          <h3>Plano Starter</h3>
+          <p class="preco">R$ 49/mês</p>
+          <ul>
+            <li>✔ Integração básica com WhatsApp</li>
+            <li>✔ Respostas automáticas</li>
+            <li>✔ Relatórios simples</li>
+            <li>✔ Suporte padrão</li>
+            <li>✔ Personalização inicial</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Starter!" class="btn-plano">Contratar</a>
+        </div>
+        
+        <!-- Plano Profissional -->
+        <div class="plano">
+          <h3>Plano Profissional</h3>
+          <p class="preco">R$ 99/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Starter</li>
+            <li>✔ Agendamento de disparos</li>
+            <li>✔ Automação de vendas com IA</li>
+            <li>✔ Relatórios detalhados e organizados</li>
+            <li>✔ Suporte prioritário</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Profissional!" class="btn-plano">Contratar</a>
+        </div>
+
+        <!-- Plano Impérium -->
+        <div class="plano">
+          <h3>Plano Impéri8um</h3>
+          <p class="preco">R$ 299/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Profissional</li>
+            <li>✔ Catálogo inteligente para produtos</li>
+            <li>✔ Integração com redes sociais</li>
+            <li>✔ Relatórios avançados com gráficos automáticos</li>
+            <li>✔ Suporte VIP 24/7</li>
+            <li>✔ Consultoria personalizada em marketing</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Impérium!" class="btn-plano">Contratar</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Imperium. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e40, #4e4e80);
+  color: white;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Planos */
+#planos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.plano {
+  background: #26264d;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.plano h3 {
+  color: #56ccf2;
+  margin-bottom: 10px;
+}
+
+.plano .preco {
+  font-size: 1.5rem;
+  color: #25d366;
+  margin: 15px 0;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plano ul li {
+  margin: 5px 0;
+}
+
+.btn-plano {
+  text-decoration: none;
+  background: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-plano:hover {
+  background: #1da851;
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #182848;
+  color: #ccccff;
+  border-top: 4px solid #56ccf2;
+}
+center;
+  padding: 15px;
+  background: #182848;
+  color: #ccccff;
+  border<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperium - Planos</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Imperium</h1>
+  </header>
+  <main>
+    <section id="planos">
+      <h2>Escolha o Plano Ideal</h2>
+      <div id="planos-container">
+        
+        <!-- Plano Starter -->
+        <div class="plano">
+          <h3>Plano Starter</h3>
+          <p class="preco">R$ 49/mês</p>
+          <ul>
+            <li>✔ Integração básica com WhatsApp</li>
+            <li>✔ Respostas automáticas</li>
+            <li>✔ Relatórios simples</li>
+            <li>✔ Suporte padrão</li>
+            <li>✔ Personalização inicial</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Starter!" class="btn-plano">Contratar</a>
+        </div>
+        
+        <!-- Plano Profissional -->
+        <div class="plano">
+          <h3>Plano Profissional</h3>
+          <p class="preco">R$ 99/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Starter</li>
+            <li>✔ Agendamento de disparos</li>
+            <li>✔ Automação de vendas com IA</li>
+            <li>✔ Relatórios detalhados e organizados</li>
+            <li>✔ Suporte prioritário</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Profissional!" class="btn-plano">Contratar</a>
+        </div>
+
+        <!-- Plano Impérium -->
+        <div class="plano">
+          <h3>Plano Impéri8um</h3>
+          <p class="preco">R$ 299/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Profissional</li>
+            <li>✔ Catálogo inteligente para produtos</li>
+            <li>✔ Integração com redes sociais</li>
+            <li>✔ Relatórios avançados com gráficos automáticos</li>
+            <li>✔ Suporte VIP 24/7</li>
+            <li>✔ Consultoria personalizada em marketing</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Impérium!" class="btn-plano">Contratar</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Imperium. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e40, #4e4e80);
+  color: white;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Planos */
+#planos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.plano {
+  background: #26264d;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.plano h3 {
+  color: #56ccf2;
+  margin-bottom: 10px;
+}
+
+.plano .preco {
+  font-size: 1.5rem;
+  color: #25d366;
+  margin: 15px 0;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plano ul li {
+  margin: 5px 0;
+}
+
+.btn-plano {
+  text-decoration: none;
+  background: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-plano:hover {
+  background: #1da851;
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+  text-align: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperium - Planos</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Imperium</h1>
+  </header>
+  <main>
+    <section id="planos">
+      <h2>Escolha o Plano Ideal</h2>
+      <div id="planos-container">
+        
+        <!-- Plano Starter -->
+        <div class="plano">
+          <h3>Plano Starter</h3>
+          <p class="preco">R$ 49/mês</p>
+          <ul>
+            <li>✔ Integração básica com WhatsApp</li>
+            <li>✔ Respostas automáticas</li>
+            <li>✔ Relatórios simples</li>
+            <li>✔ Suporte padrão</li>
+            <li>✔ Personalização inicial</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Starter!" class="btn-plano">Contratar</a>
+        </div>
+        
+        <!-- Plano Profissional -->
+        <div class="plano">
+          <h3>Plano Profissional</h3>
+          <p class="preco">R$ 99/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Starter</li>
+            <li>✔ Agendamento de disparos</li>
+            <li>✔ Automação de vendas com IA</li>
+            <li>✔ Relatórios detalhados e organizados</li>
+            <li>✔ Suporte prioritário</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Profissional!" class="btn-plano">Contratar</a>
+        </div>
+
+        <!-- Plano Impérium -->
+        <div class="plano">
+          <h3>Plano Impéri8um</h3>
+          <p class="preco">R$ 299/mês</p>
+          <ul>
+            <li>✔ Tudo do plano Profissional</li>
+            <li>✔ Catálogo inteligente para produtos</li>
+            <li>✔ Integração com redes sociais</li>
+            <li>✔ Relatórios avançados com gráficos automáticos</li>
+            <li>✔ Suporte VIP 24/7</li>
+            <li>✔ Consultoria personalizada em marketing</li>
+          </ul>
+          <a href="https://wa.me/5566999320715?text=Olá,%20tenho%20interesse%20no%20Plano%20Impérium!" class="btn-plano">Contratar</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Imperium. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e40, #4e4e80);
+  color: white;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Planos */
+#planos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.plano {
+  background: #26264d;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.plano h3 {
+  color: #56ccf2;
+  margin-bottom: 10px;
+}
+
+.plano .preco {
+  font-size: 1.5rem;
+  color: #25d366;
+  margin: 15px 0;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plano ul li {
+  margin: 5px 0;
+}
+
+.btn-plano {
+  text-decoration: none;
+  background: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-plano:hover {
+  background: #1da851;
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #182848;
+  color: #ccccff;
+  border-top: 4px solid #56ccf2;
+}
+center;
+  padding: 15px;
+  background: #182848;
+  color: #ccccff;
+  border-top: 4px solid #56ccf2;
+}
+-top: 4px solid #56ccf2;
+}
